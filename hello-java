@@ -1,0 +1,10 @@
+#build steps
+echo "compiling"
+javac Helloworld.java
+echo "execution"
+java Helloworld
+jar cvfe Helloworld.jar Helloworld*.class
+echo "====================="
+#execution
+java -jar Helloworld.jar
+echo "====================="
